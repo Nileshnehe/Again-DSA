@@ -1,10 +1,10 @@
 let arr = [1, 2, 3, 4, 5]
 
-let temp = arr[arr.length-1]
-for (i = arr.legnth-2; i>=0; i--){
+let temp = arr[0]
+for (i = 1; i<arr.length; i++){
     arr[i-1] = arr[i];
     }
-    arr[0] = temp
+    arr[arr.length-1] = temp
     console.log(arr)
 
-    //arr[arr.length-1] = temp =>  temp madhali val last la thevane  
+    //arr[arr.length-1] = temp =>  ar
